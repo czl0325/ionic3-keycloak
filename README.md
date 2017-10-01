@@ -24,7 +24,7 @@ ionic客户端：
 
 2.新建一个服务,ionic g provider keycloak
 
-3.index.html添加<script src="http://127.0.0.1:8080/auth/js/keycloak.js"></script>，先运行看看能不能找到keycloak.js文件，没报错就是添加成功。
+3.index.html添加   <script src="http://127.0.0.1:8080/auth/js/keycloak.js"></script>   ，先运行看看能不能找到keycloak.js文件，没报错就是添加成功。
 
 4.在keycloak.ts里的init()函数里面吧服务端设置的参数配置进去
 
