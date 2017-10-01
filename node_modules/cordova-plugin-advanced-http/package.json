@@ -1,0 +1,103 @@
+{
+  "_from": "cordova-plugin-advanced-http",
+  "_id": "cordova-plugin-advanced-http@1.5.10",
+  "_inBundle": false,
+  "_integrity": "sha1-wtnDQ7Fz9uhbVJ5XFVs2ZW7TpMI=",
+  "_location": "/cordova-plugin-advanced-http",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "cordova-plugin-advanced-http",
+    "name": "cordova-plugin-advanced-http",
+    "escapedName": "cordova-plugin-advanced-http",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "http://registry.npm.taobao.org/cordova-plugin-advanced-http/download/cordova-plugin-advanced-http-1.5.10.tgz",
+  "_shasum": "c2d9c343b173f6e85b549e57155b36656ed3a4c2",
+  "_spec": "cordova-plugin-advanced-http",
+  "_where": "D:\\myapp\\testcloak\\node_modules",
+  "author": {
+    "name": "Wymsee"
+  },
+  "bugs": {
+    "url": "https://github.com/silkimen/cordova-plugin-advanced-http/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "devgeeks"
+    },
+    {
+      "name": "EddyVerbruggen"
+    },
+    {
+      "name": "mbektchiev"
+    },
+    {
+      "name": "denisbabineau"
+    },
+    {
+      "name": "andrey-tsaplin"
+    },
+    {
+      "name": "pvsaikrishna"
+    },
+    {
+      "name": "cvillerm"
+    },
+    {
+      "name": "hideov"
+    },
+    {
+      "name": "Mobisys"
+    }
+  ],
+  "cordova": {
+    "id": "cordova-plugin-advanced-http",
+    "platforms": [
+      "ios",
+      "android"
+    ]
+  },
+  "deprecated": false,
+  "description": "Cordova / Phonegap plugin for communicating with HTTP servers using SSL pinning",
+  "devDependencies": {
+    "cordova": "7.0.1",
+    "umd-tough-cookie": "2.3.2"
+  },
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=4.0.0"
+    }
+  ],
+  "homepage": "https://github.com/silkimen/cordova-plugin-advanced-http#readme",
+  "keywords": [
+    "cordova",
+    "device",
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova-android",
+    "ssl",
+    "tls"
+  ],
+  "license": "MIT",
+  "name": "cordova-plugin-advanced-http",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/silkimen/cordova-plugin-advanced-http.git"
+  },
+  "scripts": {
+    "build": "cp node_modules/umd-tough-cookie/lib/umd-tough-cookie.js www/umd-tough-cookie.js",
+    "prepublish": "npm run build",
+    "test": "npm run build && ./scripts/test-installation.sh"
+  },
+  "version": "1.5.10"
+}
